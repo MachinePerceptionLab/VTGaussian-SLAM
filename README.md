@@ -147,6 +147,8 @@ When running VTGaussian-SLAM using the above commands, we can get the final eval
 
 ## Acknowledgement
 
+This project was partially supported by an NVIDIA academic award and a Richard Barber research award.
+
 We adapt codes from some awesome repositories, including [3D Gaussian Splatting](https://github.com/graphdeco-inria/gaussian-splatting), [GradSLAM & ConceptFusion](https://github.com/gradslam/gradslam/tree/conceptfusion), [SplaTAM](https://github.com/spla-tam/SplaTAM), and [Gaussian-SLAM](https://github.com/VladimirYugay/Gaussian-SLAM). Thanks for making the code available and for prompt responses to our inquiries regarding the details of their methods.
 
 
@@ -154,13 +156,10 @@ We adapt codes from some awesome repositories, including [3D Gaussian Splatting]
 ## Citation
 If you find our code or paper useful, please cite
 ```bibtex
-@misc{Hu2025VTGSSLAM,
-      title={VTGaussian-SLAM: RGBD SLAM for Large Scale Scenes with Splatting View-Tied 3D Gaussians}, 
-      author={Pengchong Hu and Zhizhong Han},
-      year={2025},
-      eprint={2506.02741},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2506.02741}, 
+@InProceedings{Hu2025VTGSSLAM,
+                title = {VTGaussian-SLAM: RGBD SLAM for Large Scale Scenes with Splatting View-Tied 3D Gaussians},
+                author = {Hu, Pengchong and Han, Zhizhong},
+                booktitle = {Proceedings of the 42nd International Conference on Machine Learning},
+                year = {2025}
 }
 ```
